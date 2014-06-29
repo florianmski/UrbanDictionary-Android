@@ -1,10 +1,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.florian.myapplication">
+    package="com.florianmski.urbandictionary">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application android:allowBackup="true"
         android:label="@string/app_name"
         android:icon="@drawable/ic_launcher"
-        android:theme="@style/AppTheme">
+        android:theme="@style/Theme.UrbanDictionary"
+        android:name=".UrbanDictionaryApplication">
+
+        <activity android:name=".ui.activities.SearchActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.crashlytics.ApiKey" android:value="f0d2c9d02a91398e3114d1b8f64a6a5682f04fe4"/>
 
     </application>
 
