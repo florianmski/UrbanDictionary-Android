@@ -20,7 +20,7 @@ This app use the following libs:
 
 ***
 
-This app is available on Google Play for free [here](https://play.google.com/store/apps/details?id=com.florianmski.UrbanDictionary)
+This app is available on Google Play for free [here](https://play.google.com/store/apps/details?id=com.florianmski.urbandictionary)
 
 Futur
 ======
